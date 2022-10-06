@@ -23,6 +23,8 @@ h2{
 
 img {
     border-radius: 10px;
+    max-width: 160px;
+    max-height: 160px;
 }
 
 .box {
@@ -32,6 +34,7 @@ img {
     border-radius: 10px; 
     text-align: center;
     color: cyan;
+    transition:all 0.5s;
 }
 
 .box.plus {
@@ -64,7 +67,7 @@ span {
 }
 
 a:hover{
-    color: cyan;
+    color: rgb(246, 255, 255);
 }
 
 .rodape {
